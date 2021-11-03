@@ -730,6 +730,9 @@ nav .container .navlinks .cntbtn:hover{
         margin: 0 auto;
         padding: 0 4rem;
     }
+    nav .container .logo {
+        font-size: 1rem;
+        }
 
     /*          header starts           */
 
