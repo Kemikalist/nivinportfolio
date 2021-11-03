@@ -1,0 +1,1264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*    General styles    */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.container{
+    position: relative;
+    z-index: 5;
+    max-width: 92rem;
+    margin: 0 auto;
+    padding: 0 4rem;
+}
+
+
+/*    General stylesended    */
+/*    Header starts    */
+
+main{
+    background-color: #323647;
+}
+header{
+    width: 100%;
+    background-color: #323647;
+    overflow: hidden;
+}
+nav{
+    width: 100%;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    align-items: center;
+}
+nav .container .logo{
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+nav .container .navlinks ul{
+    display: flex;
+}
+nav .container .navlinks a{
+    color: white;
+    font-size: 0.875rem;
+    transition: 0.3s ease-in;
+}
+nav .container .navlinks a:hover{
+    color: #F2B52F;
+    transition: 0.3s ease-in;
+}
+nav .container .navlinks .cntbtn{
+    border: 1px solid white;
+    padding: 8px 30px;
+    margin-left: 25px;
+}
+nav .container .navlinks .cntbtn:hover{
+    border: 1px solid #F2B52F;
+    background-color: #F2B52F;
+    color: #323647;
+    transition: 0.3s ease-in;
+}
+
+
+
+
+
+.header-content .container.grid-2{
+    display: grid;
+    grid-template-columns: 714px 450px;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 6rem);
+    text-align: left;
+}
+.header-content .container .coloum-1 .above-heading{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #A0A7C7;
+    letter-spacing: 5px;
+}
+
+.header-content .container .coloum-1 .header-title{
+    font-size: 2.375rem;
+    font-weight: 700;
+    color: white;
+}
+.header-content .container .coloum-1 .text{
+    font-size: 1rem;
+    color: #A0A7C7;
+    margin-top: 16px;
+}
+.header-content .container .coloum-1 .btnandtext{
+    display: flex;
+    color: #A0A7C7;
+    margin-top: 32px;
+    align-items: center;
+}
+.header-content .container .coloum-1 .btnandtext a{
+    background-color: #1863F0;
+    color: white;
+    padding: 15px 30px;
+    transition: 0.3s ease-in;
+}
+.header-content .container .coloum-1 .btnandtext a:hover{
+    background-color: #124197;
+    transition: 0.3s;
+}
+.header-content .container .coloum-1 .btnandtext img{
+    width: 16px;
+    height: 16px;
+}
+.header-content .container .coloum-1 .btnandtext p{
+    margin-left: 50px;
+    font-size: 0.875rem;
+}
+.header-content .container .coloum-1 .btnandtext p img{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: -20px
+}.header-content .container .coloum-2 .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content .container .coloum-2 .image .hero-image{
+    max-width: 450px;
+}
+
+
+
+/*     Header ends    */
+/*    Behance starts    */
+
+
+.behance .section-header{
+    margin-top: 74px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.behance .section-header .line{
+    width: 70%;
+    height: 1px;
+    background-color: #A0A7C7;
+}
+.behance .projects{
+    display: grid;
+    grid-template-columns: 1166px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*                    Behance - dribbble starts             */
+
+.dribbble{
+    margin-top: 74px;
+    display: flex;
+    background-color: #242734;
+}
+.behance .projects .dribbble .contents{
+    margin-left: 80px;
+}
+.behance .projects .dribbble h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #A0A7C7;
+}
+.behance .projects .dribbble h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 4px;
+}
+.behance .projects .dribbble p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #A0A7C7;
+    margin-top: 8px;
+}
+.behance .projects .dribbble .dribbblebtn{
+    margin-top: 32px;
+}
+.behance .projects .dribbble .dribbblebtn a{
+    padding: 15px 30px;
+    background-color: #1863F0;
+    color: white;
+    margin-top: 48px;
+    transition: 0.3s ease-in;
+}
+.behance .projects .dribbble .dribbblebtn a:hover{
+    background-color: #124197;   
+    transition: 0.3s;
+}
+.behance .projects .dribbble .dribbbleimage{
+    padding: 50px 80px;
+}
+.behance .projects .dribbble{
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*               Behance - dribbble ends                    */
+/*             Behance - poster starts                    */
+.poster{
+    margin-top: 74px;
+    display: flex;
+    background-color: #242734;
+}
+.behance .projects .poster .contents{
+    margin-left: 80px;
+}
+.behance .projects .poster h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #A0A7C7;
+}
+.behance .projects .poster h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 4px;
+}
+.behance .projects .poster p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #A0A7C7;
+    margin-top: 8px;
+}
+.behance .projects .poster .posterbtn{
+    margin-top: 32px;
+}
+.behance .projects .poster .posterbtn a{
+    padding: 15px 30px;
+    background-color: #1863F0;
+    color: white;
+    margin-top: 48px;
+    transition: 0.3s ease-in;
+}
+.behance .projects .poster .posterbtn a:hover{
+    background-color: #124197;
+    transition: 0.3s;
+}
+.behance .projects .poster .posterimage{
+    padding: 50px 0px;
+}
+.behance .projects .poster{
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+/*                Behance - poster ends                    */
+/*               beahnce - magnum starts                   */
+
+.magnum{
+    margin-top: 74px;
+    display: flex;
+    background-color: #242734;
+}
+.behance .projects .magnum .contents{
+    margin-left: 80px;
+}
+.behance .projects .magnum h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #A0A7C7;
+}
+.behance .projects .magnum h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 4px;
+}
+.behance .projects .magnum p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #A0A7C7;
+    margin-top: 8px;
+}
+.behance .projects .magnum .magnumbtn{
+    margin-top: 32px;
+}
+.behance .projects .magnum .magnumbtn a{
+    padding: 15px 30px;
+    background-color: #1863F0;
+    color: white;
+    margin-top: 48px;
+    transition: 0.3s ease-in;
+}
+.behance .projects .magnum .magnumbtn a:hover{
+    background-color: #124197;
+    transition: 0.3s;
+}
+.behance .projects .magnum .magnumimage{
+    padding: 50px 80px;
+}
+.behance .projects .magnum{
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+.behance .container .viewall{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+.behance .container .viewall a{
+    color: white;
+    font-size: 36;
+    font-weight: 200;
+    border-bottom: 1px solid white;
+    transition: 0.3s ease-in;
+}
+.behance .container .viewall a:hover{
+    color: #6ea1ff;
+    border-bottom: 1px solid #6ea1ff;
+    transition: 0.3s;
+}
+
+/*                 Behance ends                    */
+/*                Dribbble starts                    */
+
+.dribbble-projects .dribbble-section-header{
+    margin-top: 74px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dribbble-projects .dribbble-section-header .line{
+    width: 75%;
+    height: 1px;
+    background-color: #A0A7C7;
+}
+.dribbble-projects .projects{
+    margin: 84px 80px;
+}
+
+.dribbble-projects .projects .col-1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+}
+.dribbble-projects .projects .col-1 a img{
+    max-width: 400px;
+    transition: 0.3s ease-in;
+}
+.dribbble-projects .projects .col-1 a img:hover{
+    transform: scale(1.05);
+    opacity: 70%;
+    transition: 0.3;
+}
+.dribbble-projects .projects .col-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dribbble-projects .projects .col-2 img{
+    max-width: 400px;
+    transition: 0.3s;
+}
+.dribbble-projects .projects .col-2 img:hover{
+    transform: scale(1.05);
+    opacity: 70%;
+    transition: 0.3;
+}
+.dribbble-projects .container .dribbbleviewall{
+    display: flex;
+    justify-content: center;
+    margin-top: -36px;
+}
+.dribbble-projects .container .dribbbleviewall a{
+    color: white;
+    font-size: 36;
+    font-weight: 200;
+    border-bottom: 1px solid white;
+    transition: 0.3s ease-in;
+}
+.dribbble-projects .container .dribbbleviewall a:hover{
+    color: #6ea1ff;
+    border-bottom: 1px solid #6ea1ff;
+    transition: 0.3s;
+}
+
+/*                   Dribbble Ends                    */
+/*                About section starts                    */
+
+.about .aboutcontent{
+    display: grid;
+    grid-template-columns: 1166px;
+    align-items: center;
+    justify-content: center;
+}
+.about .about-section-header{
+    margin-top: 74px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .about-section-header .line{
+    width: 75%;
+    height: 1px;
+    background-color: #A0A7C7;
+}
+.about .mainimage{
+    margin-top: 74px;
+    max-width: 1420px;
+}
+.about .details p{
+    color: #A0A7C7;
+    font-size: 1rem;
+    margin-top: 64px;
+}
+.about .aboutcontent .getintouch{
+    margin-top: 164px;
+    text-align: center;
+}
+.about .aboutcontent .getintouch h4{
+    font-size: 1rem;
+    color: #CDCDCD;
+    font-weight: 500;
+}
+.about .aboutcontent .getintouch h1{
+    font-size: 2.375rem;
+    color: white;
+    font-weight: 700;
+}
+.about .aboutcontent .getintouch p{
+    font-size: 1rem;
+    color: #A0A7C7;
+    font-weight: 400;
+    margin-bottom: 64px;
+}
+.about .aboutcontent .getintouch a{
+    text-decoration: none;
+    color: black;
+    background-color: #F2B52F;
+    padding: 15px 30px;
+    transition: 0.3s ease-in;
+}
+.about .aboutcontent .getintouch a:hover{
+    padding: 17px 35px;
+    color: white;
+    background-color: #9b731e;
+    transition: 0.3s ease-in;
+}
+/*                   About section Ends                    */
+/*                     Footer starts                      */
+
+.footer{
+    margin-top: 124px;
+    padding-bottom: 18px;
+    position: relative;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer  .line{
+    width: 100%;
+    height: 1px;
+    background-color: #242734;
+    margin-bottom: 36px;
+}
+.footer .container p{
+    font-size: 1rem;
+    color: #A0A7C7;
+}
+.footer .container .links{
+    display: flex;
+}
+.footer .up{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 24px;
+    margin-top: -37px;
+    transition: 0.3s;
+    z-index: 2;
+}
+.footer .up:hover{
+    transform: scale(1.25);
+    transition: 0.3s ease-out;
+}
+.footer .container .links a{
+    padding-left: 24px;
+    transition: 0.3s ease-out;
+    opacity: 70%;
+}
+.footer .container .links a:hover{
+   transform: scale(1.25);
+    transition: 0.3s ease-out;
+    opacity: 100%;
+}
+/*     scroll     */
+
+
+
+@media screen and (max-width: 1275px){
+    .container{
+        position: relative;
+        z-index: 5;
+        max-width: 60rem;
+        margin: 0 auto;
+        padding: 0 4rem;
+    }
+
+    /*   header starts   */
+
+    nav .container .navlinks a{
+        font-size: 0.7rem;
+    }
+    .header-content .container.grid-2{
+        grid-template-columns: 500px 300px;
+    }
+    .header-content .container .coloum-1 .above-heading{
+        font-size: 0.75rem;
+    }
+    .header-content .container .coloum-1 .header-title{
+        font-size: 1.8rem;
+    }
+    .header-content .container .coloum-1 .text{
+        font-size: 0.75rem;
+    }
+    .header-content .container .coloum-1 .btnandtext a{
+        font-size: 0.80rem;
+        padding: 15px 30px;
+    }
+    .header-content .container .coloum-1 .btnandtext img{
+        width: 12px;
+        height: 12px;
+    }
+    .header-content .container .coloum-1 .btnandtext p{
+        font-size: 0.6rem;
+    }
+    .header-content .container .coloum-1 .btnandtext p img{
+        margin-left: -15px
+    }
+
+    .header-content .container .coloum-2 .image .hero-image{
+        max-width: 300px;
+    }
+    
+               /*   header ends     */
+        /*   Most recent projects starts   */
+
+
+        .behance .projects{
+            display: grid;
+            grid-template-columns: 800px;
+        }
+        .behance .section-header{
+            margin-top: 74px;
+            font-size: 1rem;
+        }  
+        .behance .section-header .line{
+            width: 65%;
+        }
+
+        /*   Behance  - dribbble starts   */
+
+        .behance .projects .dribbble h3{
+            font-size: 0.75rem;
+        }
+        .behance .projects .dribbble h1{
+            font-size: 1.5rem;
+        }
+        .behance .projects .dribbble p{
+            font-size: 0.75rem;
+        }
+        .behance .projects .dribbble p br{
+            display: none;
+        }
+        .behance .projects .dribbble .dribbblebtn a{
+            padding: 15px 100px;
+            font-size: 0.80rem;
+        }
+
+        /*   Behance  - dribbble ends   */
+        /*   Behance  - Poster starts   */
+
+        .behance .projects .poster h3{
+            font-size: 0.75rem;
+        }
+        .behance .projects .poster h1{
+            font-size: 1.5rem;
+        }
+        .behance .projects .poster p{
+            font-size: 0.75rem;
+            padding-right: 20px;
+        }
+        .behance .projects .poster p br{
+            display: none;
+        }
+        .behance .projects .poster .posterbtn a{
+            padding: 15px 100px;
+            font-size: 0.80rem;
+        }
+        .behance .projects .poster .posterimage{
+            padding: 50px 0px;
+            margin-left: 80px;
+        }
+
+        /*   Behance  - Poster ends   */
+        /*   Behance  - Magnum starts   */
+
+        .behance .projects .magnum h3{
+            font-size: 0.75rem;
+        }
+        .behance .projects .magnum h1{
+            font-size: 1.5rem;
+        }
+        .behance .projects .magnum p{
+            font-size: 0.75rem;
+        }
+        .behance .projects .magnum p br{
+            display: none;
+        }
+        .behance .projects .magnum .magnumbtn{
+            margin-bottom: 14px;
+        }
+        .behance .projects .magnum .magnumbtn a{
+            padding: 15px 100px;
+            font-size: 0.80rem;
+        }
+        .behance .container .viewall{
+            margin-top: 32px;
+        }
+        .behance .container .viewall a{
+            font-size: 12px;
+        }
+        
+        /*     Most recent projects ends   */
+        /*       Dribbble shots starts           */
+
+        .dribbble-projects .dribbble-section-header{
+            margin-top: 74px;
+            font-size: 1rem;
+        }
+        .dribbble-projects .projects{
+            max-width: 1300px;
+            margin: 48px 0px;
+        }
+        .dribbble-projects .container .dribbbleviewall a{
+            font-size: 12px;
+        }
+ 
+        /*       Dribbble shots ends           */
+        /*        More about starts           */
+        
+
+        .about .about-section-header .line{
+            width: 68%;
+        }
+        .about .aboutcontent{
+            display: grid;
+            grid-template-columns: 800px;
+        }
+        .about .details p{
+            font-size: .75rem;
+            padding: 50px;
+            margin-top: -18px;
+        }
+        .about .details p br{
+            display: none;
+        }
+        .about .aboutcontent .getintouch{
+            margin-top: 64px;
+        }
+        .about .aboutcontent .getintouch h4{
+            font-size: 0.9rem;
+        }
+        .about .aboutcontent .getintouch h1{
+            font-size: 1.8rem;
+        }
+        .about .aboutcontent .getintouch p{
+            font-size: 0.9rem;
+            margin-bottom: 32px;
+        }
+         
+        /*         More about ends           */
+        /*          Footer starts           */
+
+        .footer .container p{
+            font-size: 0.75rem;
+        }
+        .footer .up{
+            right: 8px;
+            display: none;
+        }
+ 
+        
+    }
+
+/*                              @media 1275 ends                  */
+    
+    
+@media screen and (max-width: 850px){
+    .container{
+        position: relative;
+        z-index: 5;
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 0 4rem;
+    }
+
+    /*          header starts           */
+
+    .header-content .container.grid-2{
+        grid-template-columns: 100%;
+        margin-top: 96px;
+    }
+    .header-content .container .coloum-1 .btnandtext p{
+        display: none;
+    }
+    .header-content .container .coloum-1 .btnandtext a{
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-content .container .image{
+        margin-top: 64px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 400px;
+    }
+ 
+    .header-content .container .coloum-1 .above-heading{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .header-content .container .coloum-1 .header-title{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .header-content .container .coloum-1 .text{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .header-content .container .coloum-1 .text br{
+        display: none;
+    }
+
+    /*         Header finished      */
+    /*         Behance starts      */
+
+    
+    .behance .projects{
+        display: grid;
+        grid-template-columns: 500px;
+    }
+    .behance .section-header{
+        margin-top: 74px;
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }  
+    .behance .section-header .line{
+        width: 100%;
+        margin-top: 12px;
+    }
+        /*         Behance - dribbble starts      */
+
+    .dribbble{
+        flex-direction: column;
+        height: 600px;
+    }
+    .behance .projects .dribbble .contents{
+        margin-top: 8px;
+        order: 2;
+    }
+    .behance .projects .dribbble .dribbbleimage{
+        padding: 0px;
+    }
+    .behance .projects .dribbble h3{
+        font-size: 1rem;  
+    }
+    .behance .projects .dribbble h1{
+        font-size: 1.6rem;
+    }
+    .behance .projects .dribbble p{
+        padding-right: 100px;
+        font-size: 0.88rem;
+    }
+    .behance .projects .dribbble .contents .dribbblebtn{
+        margin-bottom: 20px;
+    }
+    .behance .projects .dribbble .contents .dribbblebtn a{
+        padding: 15px 50px;
+    }
+    .behance .projects .dribbble .dribbbleimage img{
+        padding: 10px 80px;
+    }
+
+
+        /*         Behance - dribbble ends      */
+        /*         Behance - poster starts      */
+    
+        .poster{
+            display: none;
+        }
+       
+        /*         Behance - poster ends      */
+        /*         Behance -  Magnum starts      */
+
+        .magnum{
+            flex-direction: column;
+            height: 600px;
+            
+        }
+        .behance .projects .magnum .contents{
+            margin-top: 0px;
+            order: 2;
+        }
+        .behance .projects .magnum h3{
+            font-size: 1rem;
+        }
+        .behance .projects .magnum h1{
+            font-size: 1.6rem;
+        }
+        .behance .projects .magnum p{
+            font-size: 0.88rem;
+            padding-right: 100px;
+        }
+        .behance .projects .magnum .magnumbtn{
+            margin-top: 32px;
+        }
+        .behance .projects .magnum .magnumbtn a{
+            padding: 15px 50px;
+        }
+        .behance .projects .magnum .magnumimage{
+            padding: 18px 80px;
+            margin-top: -10px;
+        }
+        .behance .container .viewall{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /*                Dribbble starts                    */
+
+.dribbble-projects .dribbble-section-header{
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dribbble-projects .dribbble-section-header .line{
+    width: 100%;
+    margin-top: 12px;
+}
+.dribbble-projects .projects .col-1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        
+}
+.dribbble-projects .projects .col-1 a img{
+    max-width: 900px;
+    transition: 0.3s ease-in;
+    clip: rect(90px 0px, 90px, 0);
+}
+.dribbble-projects .projects .col-1 a img:hover{
+    transform: scale(1.05);
+    opacity: 70%;
+    transition: 0.3;
+}
+.dribbble-projects .projects .col-2{
+    display: none;
+}
+
+.dribbble-projects .container .dribbbleviewall{
+    display: flex;
+    justify-content: center;
+    margin-top: -36px;
+}
+.dribbble-projects .container .dribbbleviewall a{
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    border-bottom: 1px solid white;
+    transition: 0.3s ease-in;
+}
+.dribbble-projects .container .dribbbleviewall a:hover{
+    color: #6ea1ff;
+    border-bottom: 1px solid #6ea1ff;
+    transition: 0.3s;
+}
+  
+        /*       Dribbble shots ends           */
+        /*        More about starts           */
+
+        .about .container .about-section-header{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .about .container .about-section-header .line{
+            width: 100%;
+            margin-top: 12px;
+        }
+        .about .aboutcontent{
+            display: grid;
+            grid-template-columns: 500px;
+        }
+        .about .details p{
+            font-size: .88rem;
+            padding:0px 24px;
+            margin-top: 24px;
+        }
+        .about .details p br{
+            display: none;
+        }
+        .about .aboutcontent .getintouch{
+            margin-top: 48px;
+        }
+        .about .aboutcontent .getintouch h4{
+            font-size: 1rem;
+        }
+        .about .aboutcontent .getintouch h1{
+            font-size: 1.8rem;
+        }
+        .about .aboutcontent .getintouch p{
+            font-size: 0.88rem;
+            margin-bottom: 32px;
+        }
+        .about .aboutcontent .getintouch a{
+            padding: 15px 125px;
+        }
+         
+        /*         More about ends           */
+        /*          Footer starts           */
+
+
+
+        .footer .line{
+            width: 100%;
+            height: 1px;
+            background-color: #242734;
+            margin: 0px 20px 36px 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+     
+        .footer .container p{
+            font-size: 0.88rem;
+            text-align: center;
+        }
+        .footer .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer .container .links a{
+            padding: 24px;
+            opacity: 100%;
+        }
+        .footer .container .links a img{
+            width: 24px;
+            height: 24px;
+            
+        }
+        .footer .up{
+            margin-top: -58px;
+        }
+        
+}
+
+@media screen and (max-width: 550px){
+    nav .navlinks .cntbtn {
+        display: none;
+    }
+    .container{
+        position: relative;
+        z-index: 5;
+        max-width: 23rem;
+        padding: 1.25rem;
+    }
+    .header-content .container .coloum-1 .above-heading{
+        font-size: 0.875rem;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    .header-content .container .coloum-1 .header-title{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-top: 8px;
+        text-align: left;
+    }
+    .header-content .container .coloum-1 .text{
+        font-size: 1rem;
+        margin-top: 16px;
+        text-align: left;
+    }
+    .header-content .container .coloum-2 .image .hero-image{
+        margin-top: 36px;
+    }
+
+/*     Header ends    */
+/*    Behance starts    */
+
+
+.behance .section-header{
+    margin-top: 48px;
+}
+.behance .projects{
+    display: grid;
+    grid-template-columns: 335px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*                    Behance - dribbble starts             */
+
+.dribbble{
+    margin-top: 46px;
+    display: flex;
+    height: 430px;
+    width: 325px;
+}
+.behance .projects .dribbble .contents{
+    margin: 0px 27px
+}
+.behance .projects .dribbble h3{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.behance .projects .dribbble h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.behance .projects .dribbble p{
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-top: 8px;
+    padding-right: 0px;
+}
+.behance .projects .dribbble .contents .dribbblebtn{
+    margin-top: 24px;
+}
+.behance .projects .dribbble .contents .dribbblebtn a{
+    padding: 15px 95px;
+}
+.behance .container .projects .dribbble .radius-di img{
+    border-radius: 10px;
+}
+.behance .projects .dribbble .dribbbleimage{
+    padding: 0px 10px; 
+}
+.behance .projects .dribbble .dribbbleimage img{
+    padding: 24px 10px 10px 10px;
+    width: 305px;
+    height: 220px;
+    object-fit: cover;
+    object-position: 0 1%;
+}
+
+.behance .projects .dribbble{
+    max-width: 335px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+}
+
+/*               Behance - dribbble ends                    */
+/*               beahnce - magnum starts                   */
+
+.magnum{
+    margin-top: 36px;
+    display: flex;
+    height: 400px;
+    width: 325px;
+}
+.behance .projects .magnum .contents{
+    margin: 0px 27px;
+}
+.behance .projects .magnum h3{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.behance .projects .magnum h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.behance .projects .magnum p{
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-top: 8px;
+    padding-right: 0px;
+}
+.behance .projects .magnum .magnumbtn{
+    margin-top: 24px;
+}
+.behance .projects .magnum .magnumbtn a{
+    padding: 15px 95px;
+}
+
+.behance .projects .magnum .magnumimage{
+    padding: 0px 10px; 
+}
+.behance .projects .magnum .magnumimage img{
+    padding: 32px 10px 10px 10px;
+    width: 305px;
+    height: 220px;
+    object-fit: cover;
+    object-position: 0% 55%;
+}
+.behance .projects .magnum{
+    max-width: 335px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+}
+
+
+
+/*                 Behance ends                    */
+
+.dribbble-projects .projects .col-1{
+    display: none;
+}
+.dribbble-projects .dribbble-section-header{
+    font-size: 1rem;
+}
+.dribbble-projects .projects .col-2{
+    display: flex;
+}
+.dribbble-projects .projects .col-2{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        
+}
+.dribbble-projects .projects .col-2 a img{
+    height: 220px;
+    width: 335px;
+    object-fit: cover;
+    object-position: 0% 55%;
+    padding-bottom: 12px;
+}
+
+
+
+.dribbble-projects .container .dribbbleviewall{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+.dribbble-projects .container .dribbbleviewall a{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+  
+        /*       Dribbble shots ends           */
+          /*        More about starts           */
+        
+          .about .aboutcontent{
+            display: grid;
+            grid-template-columns: 330px;
+            margin-top: -30px;
+        }
+        .about .details p{
+            font-size: 0.75rem;
+            padding:0px 2px;
+            margin-top: 24px;
+        }
+        .about .details p br{
+            display: none;
+        }
+        .about .aboutcontent .getintouch{
+            margin-top: 64px;
+        }
+        .about .aboutcontent .getintouch h4{
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        .about .aboutcontent .getintouch h1{
+            font-size: 1rem;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+        .about .aboutcontent .getintouch p{
+            font-size: 0.65rem;
+            margin-bottom: 32px;
+            margin-top: 12px;
+        }
+        .about .aboutcontent .getintouch a{
+            padding: 15px 98px;
+        }
+        .about .aboutcontent .getintouch a:hover{
+            padding: 15px 98px;
+            color: black;
+            background-color: #9b731e;
+        }
+         
+        /*         More about ends           */
+        /*          Footer starts           */
+      
+        .footer .container p{
+            font-size: 0.88rem;
+            text-align: center;
+        }
+        .footer .container{
+           max-width: 335px;
+        }
+        .footer .container .links a{
+            padding: 12px;
+            opacity: 100%;
+        }
+        .footer .container .links a img{
+            width: 24px;
+            height: 24px;
+            margin-top: 24px;
+       }
+       .footer .up{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+}
