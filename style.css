@@ -54,6 +54,7 @@ nav .container .logo{
     display: flex;
     align-items: center;
     color: white;
+    cursor: pointer;
 }
 nav .container .navlinks ul{
     display: flex;
