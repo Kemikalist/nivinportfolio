@@ -730,9 +730,7 @@ nav .container .navlinks .cntbtn:hover{
         margin: 0 auto;
         padding: 0 4rem;
     }
-    nav .container .logo {
-        font-size: 1rem;
-        }
+
 
     /*          header starts           */
 
@@ -1001,6 +999,9 @@ nav .container .navlinks .cntbtn:hover{
 }
 
 @media screen and (max-width: 550px){
+        nav .container .logo {
+        font-size: 1rem;
+        }
     nav .navlinks .cntbtn {
         display: none;
     }
