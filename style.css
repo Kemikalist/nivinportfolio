@@ -1020,12 +1020,13 @@ nav .container .navlinks .cntbtn:hover{
     .header-content .container .coloum-1 .header-title{
         font-size: 2rem;
         font-weight: 700;
-        margin-top: 8px;
+        margin-top: 4px;
         text-align: left;
     }
     .header-content .container .coloum-1 .text{
         font-size: 1rem;
         margin-top: 16px;
+        margin-bottom: 4px;
         text-align: left;
     }
     .header-content .container .coloum-2 .image .hero-image{
