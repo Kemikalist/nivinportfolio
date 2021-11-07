@@ -73,8 +73,8 @@ nav .container .navlinks .cntbtn{
     margin-left: 25px;
 }
 nav .container .navlinks .cntbtn:hover{
-    border: 1px solid #1863F0;
-    background-color: #1863F0;
+    border: 1px solid #F2B52F;
+    background-color: #F2B52F;
     color: #323647;
     transition: 0.3s ease-in;
 }
