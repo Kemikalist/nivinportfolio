@@ -1171,13 +1171,13 @@ nav .container .navlinks .cntbtn:hover{
         flex-direction: column;
         
 }
- /* .dribbble-projects .projects .col-2 a img{
+.dribbble-projects .projects .col-2 a img{
     height: 220px;
     width: 335px;
     object-fit: cover;
     object-position: 0% 55%;
     padding-bottom: 12px;
-} */
+}
 
 
 
