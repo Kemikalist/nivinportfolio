@@ -113,13 +113,13 @@ nav .container .navlinks .cntbtn:hover{
     color: #A0A7C7;
     margin-top: 32px;
     align-items: center;
-    border-radius: 50px 20px;
 }
 .header-content .container .coloum-1 .btnandtext a{
     background-color: #1863F0;
     color: white;
     padding: 15px 30px;
     transition: 0.3s ease-in;
+    border-radius: 50px 20px;
 }
 .header-content .container .coloum-1 .btnandtext a:hover{
     background-color: #124197;
