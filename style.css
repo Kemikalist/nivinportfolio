@@ -119,7 +119,6 @@ nav .container .navlinks .cntbtn:hover{
     color: white;
     padding: 15px 30px;
     transition: 0.3s ease-in;
-    border-radius: 8px;
 }
 .header-content .container .coloum-1 .btnandtext a:hover{
     background-color: #124197;
