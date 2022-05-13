@@ -1216,12 +1216,12 @@ nav .container .navlinks .cntbtn:hover{
             font-weight: 500;
         }
         .about .aboutcontent .getintouch h1{
-            font-size: 1rem;
+            font-size: 1.5rem;
             font-weight: 700;
             margin-top: 0px;
         }
         .about .aboutcontent .getintouch p{
-            font-size: 0.65rem;
+            font-size: 0.75rem;
             margin-bottom: 40px;
             margin-top: 4px;
         }
@@ -1238,7 +1238,7 @@ nav .container .navlinks .cntbtn:hover{
         /*          Footer starts           */
       
         .footer .container p{
-            font-size: 0.88rem;
+            font-size: 0.75rem;
             text-align: center;
         }
         .footer .container{
