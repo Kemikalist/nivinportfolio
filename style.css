@@ -113,6 +113,7 @@ nav .container .navlinks .cntbtn:hover{
     color: #A0A7C7;
     margin-top: 32px;
     align-items: center;
+    border-radius: 50px 20px;
 }
 .header-content .container .coloum-1 .btnandtext a{
     background-color: #1863F0;
