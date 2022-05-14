@@ -54,6 +54,10 @@ nav .container .logo{
     display: flex;
     align-items: center;
     color: white;
+    cursor: pointer;
+}
+nav .container .logo .mobilelogo{
+    display: none;
 }
 nav .container .navlinks ul{
     display: flex;
@@ -731,7 +735,6 @@ nav .container .navlinks .cntbtn:hover{
         padding: 0 4rem;
     }
 
-
     /*          header starts           */
 
     .header-content .container.grid-2{
@@ -999,9 +1002,11 @@ nav .container .navlinks .cntbtn:hover{
 }
 
 @media screen and (max-width: 550px){
-        nav .container .logo {
-        font-size: 1rem;
-        }
+
+   nav .container{
+       display: flex;
+       align-items: center;
+   }
     nav .navlinks .cntbtn {
         display: none;
     }
@@ -1012,7 +1017,7 @@ nav .container .navlinks .cntbtn:hover{
         padding: 1.25rem;
     }
     .header-content .container .coloum-1 .above-heading{
-        font-size: 0.75rem;
+        font-size: 0.875rem;
         font-weight: 500;
         text-align: left;
     }
@@ -1020,13 +1025,13 @@ nav .container .navlinks .cntbtn:hover{
     .header-content .container .coloum-1 .header-title{
         font-size: 2rem;
         font-weight: 700;
-        margin-top: 4px;
+        margin-top: 8px;
         text-align: left;
+        line-height: 36px;
     }
     .header-content .container .coloum-1 .text{
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-top: 16px;
-        margin-bottom: 4px;
         text-align: left;
     }
     .header-content .container .coloum-2 .image .hero-image{
@@ -1216,14 +1221,14 @@ nav .container .navlinks .cntbtn:hover{
             font-weight: 500;
         }
         .about .aboutcontent .getintouch h1{
-            font-size: 1.5rem;
+            font-size: 1rem;
             font-weight: 700;
             margin-top: 0px;
         }
         .about .aboutcontent .getintouch p{
-            font-size: 0.75rem;
-            margin-bottom: 40px;
-            margin-top: 4px;
+            font-size: 0.65rem;
+            margin-bottom: 48px;
+            margin-top: 2px;
         }
         .about .aboutcontent .getintouch a{
             padding: 15px 98px;
@@ -1238,7 +1243,7 @@ nav .container .navlinks .cntbtn:hover{
         /*          Footer starts           */
       
         .footer .container p{
-            font-size: 0.75rem;
+            font-size: 0.88rem;
             text-align: center;
         }
         .footer .container{
